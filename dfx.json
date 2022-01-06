@@ -1,27 +1,13 @@
 {
   "canisters": {
     "minimalcap": {
-      "main": "src/minimalcap/main.mo",
+      "main": "src/main.mo",
       "type": "motoko"
-    },
-    "minimalcap_assets": {
-      "dependencies": [
-        "minimalcap"
-      ],
-      "frontend": {
-        "entrypoint": "src/minimalcap_assets/src/index.html"
-      },
-      "source": [
-        "src/minimalcap_assets/assets",
-        "dist/minimalcap_assets/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {
     "build": {
-      "args": "",
-      "packtool": ""
+      "packtool": "vessel sources"
     }
   },
   "dfx": "0.8.3",
