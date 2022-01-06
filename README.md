@@ -5,7 +5,7 @@ A minimal working example of CAP in Motoko.
 Deploy locally:
 
 1. Start a local version of the cap router canister.
-2. dfx deploy --no-wallet --argument "(<LOCALNET_CAP_ROUTER_CANISTER_PRINCIPAL>)"
+2. dfx deploy --no-wallet --argument "(opt \"<LOCALNET_CAP_ROUTER_CANISTER_PRINCIPAL>\")"
 3. dfx canister call minimalcap init
 
 ```
